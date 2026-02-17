@@ -1,0 +1,16 @@
+:root {
+  --color-navy-blue: #001F3F;
+  --color-gold: #FFD700;
+  --color-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-navy-blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-gold);
+}
