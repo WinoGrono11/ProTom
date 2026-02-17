@@ -1,0 +1,40 @@
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background: var(--color-navy-blue);
+  padding: 15px 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.sticky-nav a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.sticky-nav a:hover {
+  color: var(--color-gold);
+}
+
+@media (max-width: 768px) {
+  .sticky-nav ul {
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .sticky-nav a {
+    font-size: 14px;
+  }
+}
